@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  --primary-color: #e94560;
+  --background-color: #1a1a2e;
+}

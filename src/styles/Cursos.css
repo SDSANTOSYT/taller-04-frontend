@@ -1,0 +1,22 @@
+.cursos {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+.cursos__titulo {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cursos__descripcion {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.cursos__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

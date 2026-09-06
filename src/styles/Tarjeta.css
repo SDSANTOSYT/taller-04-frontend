@@ -1,0 +1,25 @@
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    width: 240px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    background-color: white;
+    text-align: left;
+}
+
+.tarjeta__emoji {
+    font-size: 40px;
+}
+
+.tarjeta__descripcion {
+    font-size: 16px;
+    color: #5e6674;
+
+}
+
+.tarjeta .boton {
+    margin-top: auto;
+}

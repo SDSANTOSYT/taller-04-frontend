@@ -1,0 +1,39 @@
+.inscripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 50px;
+    background-color: var(--background-color);
+}
+
+.inscripcion__titulo {
+    color: white;
+}
+
+.inscripcion__descripcion {
+    color: #8e9aaf;
+}
+
+.inscripcion__botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    width: 220px;
+    background-color: #16213e;
+    border-radius: 20px;
+}
+
+.inscripcion .boton {
+    font-size: 30px;
+    border-radius: 100%;
+}
+
+.inscripcion__contador {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: bold;
+}
