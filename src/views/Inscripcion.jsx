@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Boton from "./Boton";
+import Boton from "../components/Boton";
 import "../styles/Inscripcion.css";
 
 function Inscripcion() {

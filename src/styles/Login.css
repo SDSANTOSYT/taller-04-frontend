@@ -1,0 +1,45 @@
+.login {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: var(--background-color);
+}
+
+.login__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: min(100%, 360px);
+    padding: 30px;
+    background-color: #16213e;
+    border-radius: 10px;
+}
+
+.login__titulo {
+    margin: 0 0 8px;
+    text-align: center;
+}
+
+.login__campo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.login__campo input {
+    padding: 11px;
+    border: 1px solid #8e9aaf;
+    border-radius: 4px;
+    font: inherit;
+}
+
+.login__boton:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
+.login__boton {
+    align-self: center;
+}
